@@ -1,0 +1,7 @@
+---
+flows:
+- steps:
+  - kind: endpoint
+    uri: http-get:?httpUri=https://google.com/
+  - kind: endpoint
+    uri: http-post:?httpUri=https://yahoo.com/
